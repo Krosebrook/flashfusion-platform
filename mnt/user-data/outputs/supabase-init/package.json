@@ -1,0 +1,47 @@
+{
+  "name": "flashfusion-supabase-init",
+  "version": "1.0.0",
+  "description": "FlashFusion Supabase initialization and verification toolkit",
+  "scripts": {
+    "setup": "npm install && supabase link && supabase db push",
+    "migrate": "supabase db push",
+    "migrate:dry-run": "supabase db diff --no-check-migration-history",
+    "verify-rls": "tsx scripts/verify-rls.ts",
+    "test-rls:authenticated": "tsx scripts/test-authenticated.ts",
+    "test-rls:anonymous": "tsx scripts/test-anonymous.ts",
+    "seed": "tsx scripts/seed.ts",
+    "health-check": "tsx scripts/health-check.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "clean": "supabase db reset",
+    "studio": "supabase studio",
+    "logs": "supabase functions logs",
+    "db:list": "supabase db list",
+    "db:inspect": "supabase db inspect",
+    "backup": "supabase db dump -f backup-$(date +%Y%m%d-%H%M%S).sql"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "supabase",
+    "flashfusion",
+    "migration",
+    "rls",
+    "postgres"
+  ],
+  "author": "FlashFusion Team",
+  "license": "MIT"
+}

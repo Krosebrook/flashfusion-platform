@@ -1,0 +1,54 @@
+{
+  "name": "flashfusion-deployment-audit",
+  "version": "1.0.0",
+  "description": "Automated health checking for 40+ FlashFusion deployment URLs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "audit": "tsx scripts/audit.ts",
+    "audit:vercel": "tsx scripts/audit.ts vercel",
+    "audit:base44": "tsx scripts/audit.ts base44",
+    "audit:replit": "tsx scripts/audit.ts replit",
+    "audit:netlify": "tsx scripts/audit.ts netlify",
+    "analyze": "tsx scripts/analyze.ts",
+    "deprecation-report": "tsx scripts/analyze.ts --deprecation",
+    "export:csv": "tsx scripts/export.ts csv",
+    "export:md": "tsx scripts/export.ts markdown",
+    "compare": "tsx scripts/compare.ts"
+  },
+  "dependencies": {
+    "@blinkdotnew/sdk": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hot-toast": "latest",
+    "tailwind-merge": "latest",
+    "tailwindcss-animate": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "deployment",
+    "health-check",
+    "monitoring",
+    "flashfusion",
+    "audit"
+  ],
+  "author": "FlashFusion Team",
+  "license": "MIT"
+}

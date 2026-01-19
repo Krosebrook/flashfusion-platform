@@ -1,0 +1,253 @@
+{
+  "deployments": [
+    {
+      "id": "vercel-genesis",
+      "name": "FlashFusion Genesis",
+      "url": "https://flashfusion-genesis.vercel.app",
+      "platform": "vercel",
+      "purpose": "primary",
+      "notes": "Main production instance - KEEP"
+    },
+    {
+      "id": "vercel-triage-ai",
+      "name": "Smart Triage AI 2.0",
+      "url": "https://int-smart-triage-ai-2-0.vercel.app",
+      "platform": "vercel",
+      "purpose": "feature",
+      "notes": "AI-powered request classification - unique feature"
+    },
+    {
+      "id": "vercel-eval-academy",
+      "name": "Template Evaluation Academy",
+      "url": "https://v0-template-evaluation-academy.vercel.app",
+      "platform": "vercel",
+      "purpose": "testing",
+      "notes": "Template quality assessment"
+    },
+    {
+      "id": "vercel-agent-builder",
+      "name": "AI Agent Builder",
+      "url": "https://v0-ai-agent-builder.vercel.app",
+      "platform": "vercel",
+      "purpose": "feature",
+      "notes": "Agent configuration UI"
+    },
+    {
+      "id": "vercel-animation-studio",
+      "name": "Animation Studio",
+      "url": "https://animation-studio.vercel.app",
+      "platform": "vercel",
+      "purpose": "feature",
+      "notes": "Motion design tooling"
+    },
+    {
+      "id": "vercel-component-library",
+      "name": "Component Library",
+      "url": "https://flashfusion-component-library.vercel.app",
+      "platform": "vercel",
+      "purpose": "testing",
+      "notes": "UI component showcase"
+    },
+    {
+      "id": "vercel-design-system",
+      "name": "Design System",
+      "url": "https://flashfusion-design-system.vercel.app",
+      "platform": "vercel",
+      "purpose": "testing",
+      "notes": "Design tokens and guidelines"
+    },
+    {
+      "id": "base44-flash-fusion",
+      "name": "Flash Fusion",
+      "url": "https://flash-fusion-4e98fe60.base44.app",
+      "platform": "base44",
+      "purpose": "testing",
+      "notes": "Base44 hosting experiment"
+    },
+    {
+      "id": "base44-arch-designer",
+      "name": "Arch Designer",
+      "url": "https://arch-designer.base44.app",
+      "platform": "base44",
+      "purpose": "testing",
+      "notes": "Architecture visualization"
+    },
+    {
+      "id": "base44-archon-orchestrator",
+      "name": "Archon Orchestrator",
+      "url": "https://archon-orchestrator.base44.app",
+      "platform": "base44",
+      "purpose": "testing",
+      "notes": "Workflow orchestration"
+    },
+    {
+      "id": "base44-sole-ignite",
+      "name": "Sole Ignite",
+      "url": "https://sole-ignite.base44.app",
+      "platform": "base44",
+      "purpose": "testing",
+      "notes": "Unknown purpose - candidate for deprecation"
+    },
+    {
+      "id": "base44-aura-flow",
+      "name": "Aura Flow",
+      "url": "https://aura-flow.base44.app",
+      "platform": "base44",
+      "purpose": "testing",
+      "notes": "Unknown purpose - candidate for deprecation"
+    },
+    {
+      "id": "base44-fusion-ai",
+      "name": "Fusion AI",
+      "url": "https://fusion-ai.base44.app",
+      "platform": "base44",
+      "purpose": "testing",
+      "notes": "AI integration testing"
+    },
+    {
+      "id": "base44-sedona-soul",
+      "name": "Sedona Soul Sessions",
+      "url": "https://sedona-soul-sessions.base44.app",
+      "platform": "base44",
+      "purpose": "testing",
+      "notes": "Unknown purpose - candidate for deprecation"
+    },
+    {
+      "id": "replit-flashfusion",
+      "name": "FlashFusion",
+      "url": "https://flashfusion.kyrleosebrook.repl.co",
+      "platform": "replit",
+      "purpose": "personal",
+      "notes": "⚠️ PERSONAL ACCOUNT - bus factor risk - MIGRATE"
+    },
+    {
+      "id": "replit-auth-connect",
+      "name": "Auth Connect",
+      "url": "https://auth-connect.kyrleosebrook.repl.co",
+      "platform": "replit",
+      "purpose": "personal",
+      "notes": "⚠️ PERSONAL ACCOUNT - auth service - MIGRATE"
+    },
+    {
+      "id": "replit-spud-signup",
+      "name": "SPUD Signup",
+      "url": "https://spud-signup.kyrleosebrook.repl.co",
+      "platform": "replit",
+      "purpose": "personal",
+      "notes": "⚠️ PERSONAL ACCOUNT - signup flow - MIGRATE"
+    },
+    {
+      "id": "replit-sole-better",
+      "name": "Sole Much Better",
+      "url": "https://sole-much-better.kyrleosebrook.repl.co",
+      "platform": "replit",
+      "purpose": "personal",
+      "notes": "⚠️ PERSONAL ACCOUNT - candidate for deprecation"
+    },
+    {
+      "id": "replit-dev-chat",
+      "name": "Dev Chat",
+      "url": "https://dev-chat.kyrleosebrook.repl.co",
+      "platform": "replit",
+      "purpose": "personal",
+      "notes": "⚠️ PERSONAL ACCOUNT - development chat - MIGRATE"
+    },
+    {
+      "id": "replit-flash-fusion-1",
+      "name": "Flash Fusion 1",
+      "url": "https://flash-fusion-1.kyrleosebrook.repl.co",
+      "platform": "replit",
+      "purpose": "personal",
+      "notes": "⚠️ PERSONAL ACCOUNT - duplicate - DEPRECATE"
+    },
+    {
+      "id": "netlify-radiant-elf",
+      "name": "Radiant Elf",
+      "url": "https://radiant-elf.netlify.app",
+      "platform": "netlify",
+      "purpose": "testing",
+      "notes": "Unknown purpose - candidate for deprecation"
+    },
+    {
+      "id": "lovable-cortex",
+      "name": "Cortex Second Brain",
+      "url": "https://cortex-second-brain.lovable.app",
+      "platform": "lovable",
+      "purpose": "feature",
+      "notes": "Knowledge management UI - unique feature"
+    },
+    {
+      "id": "lovable-prompt-artist",
+      "name": "Prompt Artist",
+      "url": "https://lovable-prompt-artist.lovable.app",
+      "platform": "lovable",
+      "purpose": "feature",
+      "notes": "Prompt engineering tool"
+    },
+    {
+      "id": "bolt-design-system",
+      "name": "FlashFusion Design System",
+      "url": "https://flashfusion-design-system.bolt.new",
+      "platform": "bolt",
+      "purpose": "testing",
+      "notes": "Design system on Bolt - duplicate"
+    },
+    {
+      "id": "encr-app-1",
+      "name": "FlashFusion Encr Instance 1",
+      "url": "https://flashfusion-1.encr.app",
+      "platform": "encr",
+      "purpose": "testing",
+      "notes": "Experimental deployment"
+    },
+    {
+      "id": "encr-app-2",
+      "name": "FlashFusion Encr Instance 2",
+      "url": "https://flashfusion-2.encr.app",
+      "platform": "encr",
+      "purpose": "testing",
+      "notes": "Experimental deployment"
+    },
+    {
+      "id": "blink-proto",
+      "name": "Blink Prototype",
+      "url": "https://flashfusion.blink.app",
+      "platform": "blink",
+      "purpose": "testing",
+      "notes": "Experimental deployment"
+    },
+    {
+      "id": "leapcell-1",
+      "name": "Leapcell Instance",
+      "url": "https://flashfusion.leapcell.io",
+      "platform": "leapcell",
+      "purpose": "testing",
+      "notes": "Experimental deployment"
+    },
+    {
+      "id": "mocha-1",
+      "name": "Mocha Instance",
+      "url": "https://flashfusion.mocha.app",
+      "platform": "mocha",
+      "purpose": "testing",
+      "notes": "Experimental deployment"
+    }
+  ],
+  "metadata": {
+    "total_count": 29,
+    "last_updated": "2025-11-22T14:30:00Z",
+    "platforms": {
+      "vercel": 7,
+      "base44": 7,
+      "replit": 6,
+      "netlify": 1,
+      "lovable": 2,
+      "bolt": 1,
+      "encr": 2,
+      "blink": 1,
+      "leapcell": 1,
+      "mocha": 1
+    },
+    "notes": "This is a partial list based on audit findings. Actual deployment count may be 40+. Additional URLs to be discovered during full platform audit."
+  }
+}

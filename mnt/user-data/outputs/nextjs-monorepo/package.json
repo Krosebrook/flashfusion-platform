@@ -1,0 +1,62 @@
+{
+  "name": "flashfusion-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FlashFusion consolidated monorepo - Next.js 14 + Supabase + Turborepo",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "type-check": "turbo run type-check",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "test:e2e": "turbo run test:e2e",
+    "test:coverage": "turbo run test:coverage",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,md,json}\"",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "db:push": "pnpm --filter @flashfusion/supabase db:push",
+    "db:seed": "pnpm --filter @flashfusion/supabase db:seed",
+    "db:reset": "pnpm --filter @flashfusion/supabase db:reset",
+    "db:types": "pnpm --filter @flashfusion/supabase db:types",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "turbo": "^1.11.3",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.14.0",
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{md,json}": [
+      "prettier --write"
+    ]
+  },
+  "keywords": [
+    "flashfusion",
+    "nextjs",
+    "supabase",
+    "monorepo",
+    "turborepo"
+  ],
+  "author": "FlashFusion Team",
+  "license": "MIT"
+}
